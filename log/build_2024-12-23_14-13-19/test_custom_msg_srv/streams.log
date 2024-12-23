@@ -1,0 +1,208 @@
+[0.026s] Invoking command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --build /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv -- -j4 -l4
+[0.070s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.369s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.388s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.513s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.528s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.578s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.581s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.822s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.823s] -- Found test_custom_msg_srv: 0.0.0 (/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/cmake)
+[1.470s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.853s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.904s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.905s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.905s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.028s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.046s] -- Added test 'lint_cmake' to check CMake code style
+[3.050s] -- Added test 'xmllint' to check XML markup files
+[3.054s] -- Configuring done
+[3.122s] -- Generating done
+[3.147s] -- Build files have been written to: /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv
+[3.207s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_generator_c[0m
+[3.235s] [  2%] Built target test_custom_msg_srv__cpp
+[3.259s] [ 12%] Built target test_custom_msg_srv__rosidl_generator_c
+[3.268s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_cpp[0m
+[3.281s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_fastrtps_cpp[0m
+[3.286s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_introspection_cpp[0m
+[3.305s] [ 12%] Built target ament_cmake_python_copy_test_custom_msg_srv
+[3.320s] [ 23%] Built target test_custom_msg_srv__rosidl_typesupport_introspection_cpp
+[3.342s] [ 34%] Built target test_custom_msg_srv__rosidl_typesupport_cpp
+[3.348s] [ 44%] Built target test_custom_msg_srv__rosidl_typesupport_fastrtps_cpp
+[3.348s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_fastrtps_c[0m
+[3.370s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_introspection_c[0m
+[3.374s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_c[0m
+[3.410s] [ 55%] Built target test_custom_msg_srv__rosidl_typesupport_fastrtps_c
+[3.424s] [ 65%] Built target test_custom_msg_srv__rosidl_typesupport_introspection_c
+[3.433s] [ 76%] Built target test_custom_msg_srv__rosidl_typesupport_c
+[3.521s] [ 76%] Built target test_custom_msg_srv
+[3.576s] [ 78%] Built target test_custom_msg_srv__py
+[3.604s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_generator_py[0m
+[3.648s] [ 87%] Built target test_custom_msg_srv__rosidl_generator_py
+[3.672s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.683s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_introspection_c__pyext[0m
+[3.700s] [35m[1mConsolidate compiler generated dependencies of target test_custom_msg_srv__rosidl_typesupport_c__pyext[0m
+[3.732s] [ 91%] Built target test_custom_msg_srv__rosidl_typesupport_introspection_c__pyext
+[3.735s] [ 95%] Built target test_custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext
+[3.750s] [100%] Built target test_custom_msg_srv__rosidl_typesupport_c__pyext
+[4.023s] running egg_info
+[4.061s] writing test_custom_msg_srv.egg-info/PKG-INFO
+[4.062s] writing dependency_links to test_custom_msg_srv.egg-info/dependency_links.txt
+[4.062s] writing top-level names to test_custom_msg_srv.egg-info/top_level.txt
+[4.176s] reading manifest file 'test_custom_msg_srv.egg-info/SOURCES.txt'
+[4.178s] writing manifest file 'test_custom_msg_srv.egg-info/SOURCES.txt'
+[4.234s] [100%] Built target ament_cmake_python_build_test_custom_msg_srv_egg
+[4.257s] Invoked command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --build /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv -- -j4 -l4
+[4.276s] Invoking command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --install /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv
+[4.288s] -- Install configuration: ""
+[4.289s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/ament_index/resource_index/rosidl_interfaces/test_custom_msg_srv
+[4.289s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.289s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.289s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/add_three_ints.h
+[4.290s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.290s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__struct.h
+[4.290s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__functions.c
+[4.291s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__functions.h
+[4.291s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__type_support.h
+[4.292s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.292s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/sphere.h
+[4.292s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/num.h
+[4.292s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.293s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__struct.h
+[4.293s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__functions.h
+[4.294s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__functions.h
+[4.294s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__type_support.h
+[4.294s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__struct.h
+[4.294s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__type_support.h
+[4.294s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__functions.c
+[4.295s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__functions.c
+[4.295s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/rosidl_generator_c__visibility_control.h
+[4.295s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/environment/library_path.sh
+[4.295s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/environment/library_path.dsv
+[4.296s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_generator_c.so
+[4.296s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.296s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.296s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.297s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[4.297s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.297s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.297s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[4.298s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[4.298s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.298s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_fastrtps_c.so
+[4.298s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.299s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.300s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.301s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__traits.hpp
+[4.301s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__type_support.hpp
+[4.301s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__builder.hpp
+[4.302s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__struct.hpp
+[4.302s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/add_three_ints.hpp
+[4.302s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.303s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/num.hpp
+[4.303s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.303s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.303s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__struct.hpp
+[4.304s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__traits.hpp
+[4.304s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__struct.hpp
+[4.304s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__builder.hpp
+[4.304s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__traits.hpp
+[4.304s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__type_support.hpp
+[4.305s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__builder.hpp
+[4.305s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__type_support.hpp
+[4.305s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/sphere.hpp
+[4.305s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.305s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.306s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.306s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/dds_fastrtps
+[4.306s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.306s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.306s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.307s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/dds_fastrtps
+[4.307s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[4.307s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[4.307s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.307s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_fastrtps_cpp.so
+[4.308s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.308s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.308s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.308s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__type_support.c
+[4.308s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__type_support.c
+[4.309s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__rosidl_typesupport_introspection_c.h
+[4.310s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__type_support.c
+[4.310s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_introspection_c.so
+[4.310s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_c.so
+[4.310s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv
+[4.310s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv
+[4.311s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail
+[4.311s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__type_support.cpp
+[4.311s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.311s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg
+[4.311s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail
+[4.312s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[4.312s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__type_support.cpp
+[4.312s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[4.312s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/include/test_custom_msg_srv/test_custom_msg_srv/msg/detail/sphere__type_support.cpp
+[4.312s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_introspection_cpp.so
+[4.313s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_typesupport_cpp.so
+[4.313s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/environment/pythonpath.sh
+[4.313s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/environment/pythonpath.dsv
+[4.313s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv-0.0.0-py3.10.egg-info
+[4.313s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv-0.0.0-py3.10.egg-info/top_level.txt
+[4.314s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.314s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv-0.0.0-py3.10.egg-info/PKG-INFO
+[4.314s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.314s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv
+[4.314s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/libtest_custom_msg_srv__rosidl_generator_py.so
+[4.314s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/_test_custom_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.315s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.315s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/_test_custom_msg_srv_s.ep.rosidl_typesupport_introspection_c.c
+[4.315s] -- Installing: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/__init__.py
+[4.315s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.316s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/srv
+[4.316s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/srv/_add_three_ints_s.c
+[4.316s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/srv/__init__.py
+[4.316s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/srv/_add_three_ints.py
+[4.316s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.317s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg
+[4.317s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg/_num_s.c
+[4.317s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg/_sphere_s.c
+[4.317s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg/_num.py
+[4.317s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg/__init__.py
+[4.318s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg/_sphere.py
+[4.318s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/_test_custom_msg_srv_s.ep.rosidl_typesupport_c.c
+[4.365s] Listing '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv'...
+[4.365s] Compiling '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/__init__.py'...
+[4.365s] Listing '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/msg'...
+[4.366s] Listing '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/srv'...
+[4.375s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.376s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.376s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages/test_custom_msg_srv/test_custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.377s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib/libtest_custom_msg_srv__rosidl_generator_py.so
+[4.377s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/msg/Num.idl
+[4.378s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/msg/Sphere.idl
+[4.378s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/srv/AddThreeInts.idl
+[4.378s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/msg/Num.msg
+[4.379s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/msg/Sphere.msg
+[4.379s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/srv/AddThreeInts.srv
+[4.379s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/srv/AddThreeInts_Request.msg
+[4.379s] -- Up-to-date: /home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/srv/AddThreeInts_Response.msg
+[4.379s] [31mCMake Error at cmake_install.cmake:391 (file):
+[4.380s]   file INSTALL cannot find
+[4.380s]   "/home/lydia-chheng/ros2_ws/src/test_custom_msg_srv/scripts/publisher.py":
+[4.380s]   No such file or directory.
+[4.380s] 
+[4.380s] [0m
+[4.382s] Invoked command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --install /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv

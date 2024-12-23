@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000582] (-) JobUnselected: {'identifier': 'test1'}
+[0.000641] (-) JobUnselected: {'identifier': 'test2'}
+[0.000682] (-) JobUnselected: {'identifier': 'test_custom_msg_srv'}
+[0.000722] (-) JobUnselected: {'identifier': 'test_pub_sub'}
+[0.000751] (-) JobUnselected: {'identifier': 'test_srv_cli'}
+[0.000782] (parameters) JobQueued: {'identifier': 'parameters', 'dependencies': OrderedDict()}
+[0.000815] (parameters) JobStarted: {'identifier': 'parameters'}
+[0.099005] (-) TimerEvent: {}
+[0.199381] (-) TimerEvent: {}
+[0.299807] (-) TimerEvent: {}
+[0.400223] (-) TimerEvent: {}
+[0.500724] (-) TimerEvent: {}
+[0.601049] (-) TimerEvent: {}
+[0.701377] (-) TimerEvent: {}
+[0.801714] (-) TimerEvent: {}
+[0.902059] (-) TimerEvent: {}
+[1.002661] (-) TimerEvent: {}
+[1.103044] (-) TimerEvent: {}
+[1.203375] (-) TimerEvent: {}
+[1.303786] (-) TimerEvent: {}
+[1.348300] (parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/parameters', 'build', '--build-base', '/home/lydia-chheng/ros2_ws/build/parameters/build', 'install', '--record', '/home/lydia-chheng/ros2_ws/build/parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/ros2_ws/src/parameters', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1525', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lydia-chheng/ros2_ws/install:/home/lydia-chheng/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1494,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1494', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/013b16ac_26ba_4731_830e_3a6cc2efa3fe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9V3YY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.652', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lydia-chheng/ros2_ws/install/parameters:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/home/lydia-chheng/ros2_ws/src/install/test2:/home/lydia-chheng/ros2_ws/src/install/parameters:/home/lydia-chheng/ros2_ws/src/install/can_test:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/build/parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/build/parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/local/lib/python3.10/dist-packages:/home/lydia-chheng/ros2_ws/install/test2/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/install/can_test/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages:/home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv'}, 'shell': False}
+[1.403882] (-) TimerEvent: {}
+[1.504231] (-) TimerEvent: {}
+[1.604691] (-) TimerEvent: {}
+[1.619478] (parameters) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.619857] (parameters) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.704747] (-) TimerEvent: {}
+[1.805103] (-) TimerEvent: {}
+[1.815229] (parameters) StdoutLine: {'line': b'running egg_info\n'}
+[1.849952] (parameters) StdoutLine: {'line': b'writing ../../build/parameters/parameters.egg-info/PKG-INFO\n'}
+[1.850863] (parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/parameters/parameters.egg-info/dependency_links.txt\n'}
+[1.851300] (parameters) StdoutLine: {'line': b'writing entry points to ../../build/parameters/parameters.egg-info/entry_points.txt\n'}
+[1.851685] (parameters) StdoutLine: {'line': b'writing requirements to ../../build/parameters/parameters.egg-info/requires.txt\n'}
+[1.852149] (parameters) StdoutLine: {'line': b'writing top-level names to ../../build/parameters/parameters.egg-info/top_level.txt\n'}
+[1.905207] (-) TimerEvent: {}
+[1.908629] (parameters) StdoutLine: {'line': b"reading manifest file '../../build/parameters/parameters.egg-info/SOURCES.txt'\n"}
+[1.909363] (parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.910890] (parameters) StdoutLine: {'line': b"writing manifest file '../../build/parameters/parameters.egg-info/SOURCES.txt'\n"}
+[1.911141] (parameters) StdoutLine: {'line': b'running build\n'}
+[1.911344] (parameters) StdoutLine: {'line': b'running build_py\n'}
+[1.911603] (parameters) StdoutLine: {'line': b'copying parameters/__init__.py -> /home/lydia-chheng/ros2_ws/build/parameters/build/lib/parameters\n'}
+[1.911903] (parameters) StdoutLine: {'line': b'copying parameters/parameters.py -> /home/lydia-chheng/ros2_ws/build/parameters/build/lib/parameters\n'}
+[1.912450] (parameters) StdoutLine: {'line': b'running install\n'}
+[1.921846] (parameters) StdoutLine: {'line': b'running install_lib\n'}
+[1.952143] (parameters) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/build/parameters/build/lib/parameters/parameters.py -> /home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages/parameters\n'}
+[1.953605] (parameters) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages/parameters/parameters.py to parameters.cpython-310.pyc\n'}
+[1.954614] (parameters) StdoutLine: {'line': b'running install_data\n'}
+[1.955022] (parameters) StdoutLine: {'line': b'copying resource/parameters -> /home/lydia-chheng/ros2_ws/install/parameters/share/ament_index/resource_index/packages\n'}
+[1.955386] (parameters) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/ros2_ws/install/parameters/share/parameters\n'}
+[1.955642] (parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.990484] (parameters) StdoutLine: {'line': b"removing '/home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages/parameters-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.990933] (parameters) StdoutLine: {'line': b'Copying ../../build/parameters/parameters.egg-info to /home/lydia-chheng/ros2_ws/install/parameters/lib/python3.10/site-packages/parameters-0.0.0-py3.10.egg-info\n'}
+[1.992141] (parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[2.005312] (-) TimerEvent: {}
+[2.105689] (-) TimerEvent: {}
+[2.206074] (-) TimerEvent: {}
+[2.226217] (parameters) StdoutLine: {'line': b'Installing parameters script to /home/lydia-chheng/ros2_ws/install/parameters/lib/parameters\n'}
+[2.226934] (parameters) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/ros2_ws/build/parameters/install.log'\n"}
+[2.280457] (parameters) CommandEnded: {'returncode': 0}
+[2.298297] (parameters) JobEnded: {'identifier': 'parameters', 'rc': 0}
+[2.299540] (-) EventReactorShutdown: {}

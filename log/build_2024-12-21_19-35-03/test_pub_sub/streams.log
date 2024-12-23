@@ -1,0 +1,25 @@
+[3.578s] Invoking command in '/home/lydia-chheng/ros2_ws/build/test_pub_sub': PYTHONPATH=/home/lydia-chheng/ros2_ws/build/test_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lydia-chheng/ros2_ws/build/test_pub_sub/build --no-deps symlink_data
+[4.075s] /home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.075s]   warnings.warn(msg)
+[4.670s] running develop
+[5.238s] running egg_info
+[5.281s] creating test_pub_sub.egg-info
+[5.282s] writing test_pub_sub.egg-info/PKG-INFO
+[5.283s] writing dependency_links to test_pub_sub.egg-info/dependency_links.txt
+[5.284s] writing entry points to test_pub_sub.egg-info/entry_points.txt
+[5.286s] writing requirements to test_pub_sub.egg-info/requires.txt
+[5.287s] writing top-level names to test_pub_sub.egg-info/top_level.txt
+[5.287s] writing manifest file 'test_pub_sub.egg-info/SOURCES.txt'
+[5.416s] reading manifest file 'test_pub_sub.egg-info/SOURCES.txt'
+[5.423s] writing manifest file 'test_pub_sub.egg-info/SOURCES.txt'
+[5.499s] running build_ext
+[5.499s] Creating /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages/test-pub-sub.egg-link (link to .)
+[5.500s] Installing publisher script to /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/test_pub_sub
+[5.503s] Installing subscriber script to /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/test_pub_sub
+[5.503s] 
+[5.507s] Installed /home/lydia-chheng/ros2_ws/build/test_pub_sub
+[5.507s] running symlink_data
+[5.508s] creating /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/ament_index/resource_index/packages
+[5.508s] symbolically linking /home/lydia-chheng/ros2_ws/build/test_pub_sub/resource/test_pub_sub -> /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/ament_index/resource_index/packages
+[5.508s] symbolically linking /home/lydia-chheng/ros2_ws/build/test_pub_sub/package.xml -> /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/test_pub_sub
+[5.629s] Invoked command in '/home/lydia-chheng/ros2_ws/build/test_pub_sub' returned '0': PYTHONPATH=/home/lydia-chheng/ros2_ws/build/test_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lydia-chheng/ros2_ws/build/test_pub_sub/build --no-deps symlink_data

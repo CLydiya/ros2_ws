@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (test1) JobQueued: {'identifier': 'test1', 'dependencies': OrderedDict()}
+[0.000949] (test2) JobQueued: {'identifier': 'test2', 'dependencies': OrderedDict()}
+[0.001239] (test_pub_sub) JobQueued: {'identifier': 'test_pub_sub', 'dependencies': OrderedDict()}
+[0.001290] (test1) JobStarted: {'identifier': 'test1'}
+[0.013935] (test2) JobStarted: {'identifier': 'test2'}
+[0.023375] (test_pub_sub) JobStarted: {'identifier': 'test_pub_sub'}
+[0.099573] (-) TimerEvent: {}
+[0.199997] (-) TimerEvent: {}
+[0.300657] (-) TimerEvent: {}
+[0.401097] (-) TimerEvent: {}
+[0.501540] (-) TimerEvent: {}
+[0.602555] (-) TimerEvent: {}
+[0.707008] (-) TimerEvent: {}
+[0.807460] (-) TimerEvent: {}
+[0.907936] (-) TimerEvent: {}
+[1.008990] (-) TimerEvent: {}
+[1.109698] (-) TimerEvent: {}
+[1.210374] (-) TimerEvent: {}
+[1.311132] (-) TimerEvent: {}
+[1.411672] (-) TimerEvent: {}
+[1.512114] (-) TimerEvent: {}
+[1.612822] (-) TimerEvent: {}
+[1.713997] (-) TimerEvent: {}
+[1.814532] (-) TimerEvent: {}
+[1.916609] (-) TimerEvent: {}
+[2.021251] (-) TimerEvent: {}
+[2.125442] (-) TimerEvent: {}
+[2.220804] (test1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lydia-chheng/ros2_ws/build/test1/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/lydia-chheng/ros2_ws/build/test1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1316', 'SYSTEMD_EXEC_PID': '1490', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3676', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', 'JOURNAL_STREAM': '8:13337', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lydia-chheng/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1462,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1462', 'INVOCATION_ID': '07d1036e500042abb6536338c0164d17', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDJZY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6adf659e53.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/build/test1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.227303] (-) TimerEvent: {}
+[2.330391] (-) TimerEvent: {}
+[2.431268] (-) TimerEvent: {}
+[2.532124] (-) TimerEvent: {}
+[2.632802] (-) TimerEvent: {}
+[2.734668] (-) TimerEvent: {}
+[2.754123] (test1) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.755479] (test1) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.834784] (-) TimerEvent: {}
+[2.938133] (-) TimerEvent: {}
+[3.038849] (-) TimerEvent: {}
+[3.139865] (-) TimerEvent: {}
+[3.241384] (-) TimerEvent: {}
+[3.345159] (-) TimerEvent: {}
+[3.365916] (test1) StdoutLine: {'line': b'running develop\n'}
+[3.447800] (-) TimerEvent: {}
+[3.530353] (test2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lydia-chheng/ros2_ws/build/test2/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/lydia-chheng/ros2_ws/build/test2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1316', 'SYSTEMD_EXEC_PID': '1490', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3676', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', 'JOURNAL_STREAM': '8:13337', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lydia-chheng/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1462,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1462', 'INVOCATION_ID': '07d1036e500042abb6536338c0164d17', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDJZY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6adf659e53.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/build/test2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/build/test2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.547914] (-) TimerEvent: {}
+[3.598742] (test_pub_sub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lydia-chheng/ros2_ws/build/test_pub_sub/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lydia-chheng/ros2_ws/build/test_pub_sub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1316', 'SYSTEMD_EXEC_PID': '1490', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3676', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', 'JOURNAL_STREAM': '8:13337', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lydia-chheng/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1462,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1462', 'INVOCATION_ID': '07d1036e500042abb6536338c0164d17', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDJZY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6adf659e53.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/build/test_pub_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/build/test_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.648000] (-) TimerEvent: {}
+[3.752016] (-) TimerEvent: {}
+[3.854603] (-) TimerEvent: {}
+[3.956099] (-) TimerEvent: {}
+[4.057541] (-) TimerEvent: {}
+[4.064252] (test2) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.065336] (test2) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.097467] (test_pub_sub) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.098076] (test_pub_sub) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.158337] (-) TimerEvent: {}
+[4.174075] (test1) StdoutLine: {'line': b'running egg_info\n'}
+[4.218570] (test1) StdoutLine: {'line': b'writing test1.egg-info/PKG-INFO\n'}
+[4.220512] (test1) StdoutLine: {'line': b'writing dependency_links to test1.egg-info/dependency_links.txt\n'}
+[4.223591] (test1) StdoutLine: {'line': b'writing entry points to test1.egg-info/entry_points.txt\n'}
+[4.224735] (test1) StdoutLine: {'line': b'writing requirements to test1.egg-info/requires.txt\n'}
+[4.228380] (test1) StdoutLine: {'line': b'writing top-level names to test1.egg-info/top_level.txt\n'}
+[4.258452] (-) TimerEvent: {}
+[4.344113] (test1) StdoutLine: {'line': b"reading manifest file 'test1.egg-info/SOURCES.txt'\n"}
+[4.349399] (test1) StdoutLine: {'line': b"writing manifest file 'test1.egg-info/SOURCES.txt'\n"}
+[4.358767] (-) TimerEvent: {}
+[4.432130] (test1) StdoutLine: {'line': b'running build_ext\n'}
+[4.440764] (test1) StdoutLine: {'line': b'Creating /home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages/test1.egg-link (link to .)\n'}
+[4.441315] (test1) StdoutLine: {'line': b'Installing test_node script to /home/lydia-chheng/ros2_ws/install/test1/lib/test1\n'}
+[4.441742] (test1) StdoutLine: {'line': b'\n'}
+[4.441973] (test1) StdoutLine: {'line': b'Installed /home/lydia-chheng/ros2_ws/build/test1\n'}
+[4.442204] (test1) StdoutLine: {'line': b'running symlink_data\n'}
+[4.442405] (test1) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test1/resource/test1 -> /home/lydia-chheng/ros2_ws/install/test1/share/ament_index/resource_index/packages\n'}
+[4.442603] (test1) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test1/package.xml -> /home/lydia-chheng/ros2_ws/install/test1/share/test1\n'}
+[4.459018] (-) TimerEvent: {}
+[4.526025] (test1) CommandEnded: {'returncode': 0}
+[4.559118] (-) TimerEvent: {}
+[4.575963] (test1) JobEnded: {'identifier': 'test1', 'rc': 0}
+[4.659451] (-) TimerEvent: {}
+[4.677042] (test2) StdoutLine: {'line': b'running develop\n'}
+[4.692668] (test_pub_sub) StdoutLine: {'line': b'running develop\n'}
+[4.759822] (-) TimerEvent: {}
+[4.862226] (-) TimerEvent: {}
+[4.962857] (-) TimerEvent: {}
+[5.064796] (-) TimerEvent: {}
+[5.166902] (-) TimerEvent: {}
+[5.260435] (test_pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[5.267812] (-) TimerEvent: {}
+[5.297672] (test2) StdoutLine: {'line': b'running egg_info\n'}
+[5.303179] (test_pub_sub) StdoutLine: {'line': b'creating test_pub_sub.egg-info\n'}
+[5.304393] (test_pub_sub) StdoutLine: {'line': b'writing test_pub_sub.egg-info/PKG-INFO\n'}
+[5.305422] (test_pub_sub) StdoutLine: {'line': b'writing dependency_links to test_pub_sub.egg-info/dependency_links.txt\n'}
+[5.306900] (test_pub_sub) StdoutLine: {'line': b'writing entry points to test_pub_sub.egg-info/entry_points.txt\n'}
+[5.308842] (test_pub_sub) StdoutLine: {'line': b'writing requirements to test_pub_sub.egg-info/requires.txt\n'}
+[5.309887] (test_pub_sub) StdoutLine: {'line': b'writing top-level names to test_pub_sub.egg-info/top_level.txt\n'}
+[5.310177] (test_pub_sub) StdoutLine: {'line': b"writing manifest file 'test_pub_sub.egg-info/SOURCES.txt'\n"}
+[5.348574] (test2) StdoutLine: {'line': b'writing test2.egg-info/PKG-INFO\n'}
+[5.351155] (test2) StdoutLine: {'line': b'writing dependency_links to test2.egg-info/dependency_links.txt\n'}
+[5.351446] (test2) StdoutLine: {'line': b'writing entry points to test2.egg-info/entry_points.txt\n'}
+[5.351662] (test2) StdoutLine: {'line': b'writing requirements to test2.egg-info/requires.txt\n'}
+[5.351861] (test2) StdoutLine: {'line': b'writing top-level names to test2.egg-info/top_level.txt\n'}
+[5.367944] (-) TimerEvent: {}
+[5.437623] (test_pub_sub) StdoutLine: {'line': b"reading manifest file 'test_pub_sub.egg-info/SOURCES.txt'\n"}
+[5.445526] (test_pub_sub) StdoutLine: {'line': b"writing manifest file 'test_pub_sub.egg-info/SOURCES.txt'\n"}
+[5.468046] (-) TimerEvent: {}
+[5.520708] (test2) StdoutLine: {'line': b"reading manifest file 'test2.egg-info/SOURCES.txt'\n"}
+[5.521981] (test_pub_sub) StdoutLine: {'line': b'running build_ext\n'}
+[5.522320] (test_pub_sub) StdoutLine: {'line': b'Creating /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/python3.10/site-packages/test-pub-sub.egg-link (link to .)\n'}
+[5.523646] (test_pub_sub) StdoutLine: {'line': b'Installing publisher script to /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/test_pub_sub\n'}
+[5.524893] (test_pub_sub) StdoutLine: {'line': b'Installing subscriber script to /home/lydia-chheng/ros2_ws/install/test_pub_sub/lib/test_pub_sub\n'}
+[5.526375] (test_pub_sub) StdoutLine: {'line': b'\n'}
+[5.528990] (test_pub_sub) StdoutLine: {'line': b'Installed /home/lydia-chheng/ros2_ws/build/test_pub_sub\n'}
+[5.530557] (test_pub_sub) StdoutLine: {'line': b'running symlink_data\n'}
+[5.530881] (test_pub_sub) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/ament_index/resource_index/packages\n'}
+[5.531184] (test_pub_sub) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test_pub_sub/resource/test_pub_sub -> /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/ament_index/resource_index/packages\n'}
+[5.531514] (test_pub_sub) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test_pub_sub/package.xml -> /home/lydia-chheng/ros2_ws/install/test_pub_sub/share/test_pub_sub\n'}
+[5.538042] (test2) StdoutLine: {'line': b"writing manifest file 'test2.egg-info/SOURCES.txt'\n"}
+[5.568177] (-) TimerEvent: {}
+[5.596826] (test2) StdoutLine: {'line': b'running build_ext\n'}
+[5.597344] (test2) StdoutLine: {'line': b'Creating /home/lydia-chheng/ros2_ws/install/test2/lib/python3.10/site-packages/test2.egg-link (link to .)\n'}
+[5.599453] (test2) StdoutLine: {'line': b'Installing turtle_publisher script to /home/lydia-chheng/ros2_ws/install/test2/lib/test2\n'}
+[5.600567] (test2) StdoutLine: {'line': b'\n'}
+[5.600988] (test2) StdoutLine: {'line': b'Installed /home/lydia-chheng/ros2_ws/build/test2\n'}
+[5.601219] (test2) StdoutLine: {'line': b'running symlink_data\n'}
+[5.601693] (test2) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test2/resource/test2 -> /home/lydia-chheng/ros2_ws/install/test2/share/ament_index/resource_index/packages\n'}
+[5.602157] (test2) StdoutLine: {'line': b'symbolically linking /home/lydia-chheng/ros2_ws/build/test2/package.xml -> /home/lydia-chheng/ros2_ws/install/test2/share/test2\n'}
+[5.652114] (test_pub_sub) CommandEnded: {'returncode': 0}
+[5.669138] (-) TimerEvent: {}
+[5.694444] (test_pub_sub) JobEnded: {'identifier': 'test_pub_sub', 'rc': 0}
+[5.713045] (test2) CommandEnded: {'returncode': 0}
+[5.733100] (test2) JobEnded: {'identifier': 'test2', 'rc': 0}
+[5.734454] (-) EventReactorShutdown: {}

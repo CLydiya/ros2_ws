@@ -1,0 +1,33 @@
+[0.062s] Invoking command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --build /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv -- -j4 -l4
+[1.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.320s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.321s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.321s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.321s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.322s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.322s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.322s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.324s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.325s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.325s] -- Found test_custom_msg_srv: 0.0.0 (/home/lydia-chheng/ros2_ws/install/test_custom_msg_srv/share/test_custom_msg_srv/cmake)
+[2.105s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.612s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.682s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.683s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.684s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.846s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.846s] [31mCMake Error at CMakeLists.txt:28 (install):
+[4.846s]   install TARGETS given target "publisher" which does not exist.
+[4.847s] 
+[4.847s] [0m
+[4.873s] -- Added test 'lint_cmake' to check CMake code style
+[4.873s] -- Added test 'xmllint' to check XML markup files
+[4.881s] -- Configuring incomplete, errors occurred!
+[4.881s] See also "/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv/CMakeFiles/CMakeOutput.log".
+[4.923s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[4.936s] Invoked command in '/home/lydia-chheng/ros2_ws/build/test_custom_msg_srv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lydia-chheng/ros2_ws/install/test_srv_cli:/home/lydia-chheng/ros2_ws/install/test_pub_sub:/home/lydia-chheng/ros2_ws/install/test2:/home/lydia-chheng/ros2_ws/install/can_test:/opt/ros/humble /usr/bin/cmake --build /home/lydia-chheng/ros2_ws/build/test_custom_msg_srv -- -j4 -l4

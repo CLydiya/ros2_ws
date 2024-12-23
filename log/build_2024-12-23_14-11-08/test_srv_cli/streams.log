@@ -1,0 +1,29 @@
+[4.304s] Invoking command in '/home/lydia-chheng/ros2_ws/src/test_srv_cli': PYTHONPATH=/home/lydia-chheng/ros2_ws/build/test_srv_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_srv_cli build --build-base /home/lydia-chheng/ros2_ws/build/test_srv_cli/build install --record /home/lydia-chheng/ros2_ws/build/test_srv_cli/install.log --single-version-externally-managed install_data
+[4.926s] /home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.927s]   warnings.warn(msg)
+[5.223s] running egg_info
+[5.273s] writing ../../build/test_srv_cli/test_srv_cli.egg-info/PKG-INFO
+[5.274s] writing dependency_links to ../../build/test_srv_cli/test_srv_cli.egg-info/dependency_links.txt
+[5.276s] writing entry points to ../../build/test_srv_cli/test_srv_cli.egg-info/entry_points.txt
+[5.276s] writing requirements to ../../build/test_srv_cli/test_srv_cli.egg-info/requires.txt
+[5.277s] writing top-level names to ../../build/test_srv_cli/test_srv_cli.egg-info/top_level.txt
+[5.388s] reading manifest file '../../build/test_srv_cli/test_srv_cli.egg-info/SOURCES.txt'
+[5.389s] adding license file 'LICENSE'
+[5.392s] writing manifest file '../../build/test_srv_cli/test_srv_cli.egg-info/SOURCES.txt'
+[5.393s] running build
+[5.393s] running build_py
+[5.393s] copying test_srv_cli/__init__.py -> /home/lydia-chheng/ros2_ws/build/test_srv_cli/build/lib/test_srv_cli
+[5.394s] copying test_srv_cli/client.py -> /home/lydia-chheng/ros2_ws/build/test_srv_cli/build/lib/test_srv_cli
+[5.394s] copying test_srv_cli/service.py -> /home/lydia-chheng/ros2_ws/build/test_srv_cli/build/lib/test_srv_cli
+[5.398s] running install
+[5.413s] running install_lib
+[5.470s] running install_data
+[5.474s] copying resource/test_srv_cli -> /home/lydia-chheng/ros2_ws/install/test_srv_cli/share/ament_index/resource_index/packages
+[5.475s] copying package.xml -> /home/lydia-chheng/ros2_ws/install/test_srv_cli/share/test_srv_cli
+[5.475s] running install_egg_info
+[5.531s] removing '/home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/python3.10/site-packages/test_srv_cli-0.0.0-py3.10.egg-info' (and everything under it)
+[5.535s] Copying ../../build/test_srv_cli/test_srv_cli.egg-info to /home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/python3.10/site-packages/test_srv_cli-0.0.0-py3.10.egg-info
+[5.536s] running install_scripts
+[5.902s] Installing client script to /home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/test_srv_cli
+[5.902s] Installing service script to /home/lydia-chheng/ros2_ws/install/test_srv_cli/lib/test_srv_cli
+[5.907s] writing list of installed files to '/home/lydia-chheng/ros2_ws/build/test_srv_cli/install.log'

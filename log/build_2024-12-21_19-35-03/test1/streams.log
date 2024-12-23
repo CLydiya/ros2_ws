@@ -1,0 +1,21 @@
+[2.221s] Invoking command in '/home/lydia-chheng/ros2_ws/build/test1': PYTHONPATH=/home/lydia-chheng/ros2_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lydia-chheng/ros2_ws/build/test1/build --no-deps symlink_data --force
+[2.754s] /home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.755s]   warnings.warn(msg)
+[3.365s] running develop
+[4.175s] running egg_info
+[4.219s] writing test1.egg-info/PKG-INFO
+[4.219s] writing dependency_links to test1.egg-info/dependency_links.txt
+[4.223s] writing entry points to test1.egg-info/entry_points.txt
+[4.227s] writing requirements to test1.egg-info/requires.txt
+[4.228s] writing top-level names to test1.egg-info/top_level.txt
+[4.343s] reading manifest file 'test1.egg-info/SOURCES.txt'
+[4.350s] writing manifest file 'test1.egg-info/SOURCES.txt'
+[4.431s] running build_ext
+[4.440s] Creating /home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages/test1.egg-link (link to .)
+[4.440s] Installing test_node script to /home/lydia-chheng/ros2_ws/install/test1/lib/test1
+[4.441s] 
+[4.441s] Installed /home/lydia-chheng/ros2_ws/build/test1
+[4.441s] running symlink_data
+[4.441s] symbolically linking /home/lydia-chheng/ros2_ws/build/test1/resource/test1 -> /home/lydia-chheng/ros2_ws/install/test1/share/ament_index/resource_index/packages
+[4.441s] symbolically linking /home/lydia-chheng/ros2_ws/build/test1/package.xml -> /home/lydia-chheng/ros2_ws/install/test1/share/test1
+[4.525s] Invoked command in '/home/lydia-chheng/ros2_ws/build/test1' returned '0': PYTHONPATH=/home/lydia-chheng/ros2_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lydia-chheng/ros2_ws/build/test1/build --no-deps symlink_data --force
