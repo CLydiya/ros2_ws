@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (can_test) JobQueued: {'identifier': 'can_test', 'dependencies': OrderedDict()}
+[0.000422] (test1) JobQueued: {'identifier': 'test1', 'dependencies': OrderedDict()}
+[0.000506] (test2) JobQueued: {'identifier': 'test2', 'dependencies': OrderedDict()}
+[0.000593] (can_test) JobStarted: {'identifier': 'can_test'}
+[0.018428] (test1) JobStarted: {'identifier': 'test1'}
+[0.023726] (test2) JobStarted: {'identifier': 'test2'}
+[0.098586] (-) TimerEvent: {}
+[0.199030] (-) TimerEvent: {}
+[0.299448] (-) TimerEvent: {}
+[0.399884] (-) TimerEvent: {}
+[0.500315] (-) TimerEvent: {}
+[0.600862] (-) TimerEvent: {}
+[0.701360] (-) TimerEvent: {}
+[0.801779] (-) TimerEvent: {}
+[0.902142] (-) TimerEvent: {}
+[1.002497] (-) TimerEvent: {}
+[1.102948] (-) TimerEvent: {}
+[1.203382] (-) TimerEvent: {}
+[1.303823] (-) TimerEvent: {}
+[1.404254] (-) TimerEvent: {}
+[1.504732] (-) TimerEvent: {}
+[1.605187] (-) TimerEvent: {}
+[1.662628] (test1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/test1', 'build', '--build-base', '/home/lydia-chheng/ros2_ws/src/build/test1/build', 'install', '--record', '/home/lydia-chheng/ros2_ws/src/build/test1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/ros2_ws/src/test1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2730', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1490,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1490', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d425c1c_f217_4fe0_a10c_3406394b0c61', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CICDY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/src/build/test1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/src/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.705314] (-) TimerEvent: {}
+[1.805954] (-) TimerEvent: {}
+[1.908417] (-) TimerEvent: {}
+[2.010635] (-) TimerEvent: {}
+[2.111630] (-) TimerEvent: {}
+[2.221638] (-) TimerEvent: {}
+[2.299863] (test1) StdoutLine: {'line': b'running egg_info\n'}
+[2.301380] (test1) StdoutLine: {'line': b'creating ../build/test1/test1.egg-info\n'}
+[2.301859] (test1) StdoutLine: {'line': b'writing ../build/test1/test1.egg-info/PKG-INFO\n'}
+[2.302386] (test1) StdoutLine: {'line': b'writing dependency_links to ../build/test1/test1.egg-info/dependency_links.txt\n'}
+[2.302686] (test1) StdoutLine: {'line': b'writing entry points to ../build/test1/test1.egg-info/entry_points.txt\n'}
+[2.302992] (test1) StdoutLine: {'line': b'writing requirements to ../build/test1/test1.egg-info/requires.txt\n'}
+[2.303260] (test1) StdoutLine: {'line': b'writing top-level names to ../build/test1/test1.egg-info/top_level.txt\n'}
+[2.303771] (test1) StdoutLine: {'line': b"writing manifest file '../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[2.307829] (test1) StdoutLine: {'line': b"reading manifest file '../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[2.308228] (test1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.310064] (test1) StdoutLine: {'line': b"writing manifest file '../build/test1/test1.egg-info/SOURCES.txt'\n"}
+[2.310734] (test1) StdoutLine: {'line': b'running build\n'}
+[2.310980] (test1) StdoutLine: {'line': b'running build_py\n'}
+[2.311178] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test1/build\n'}
+[2.311459] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test1/build/lib\n'}
+[2.311680] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test1/build/lib/test1\n'}
+[2.311882] (test1) StdoutLine: {'line': b'copying test1/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/test1/build/lib/test1\n'}
+[2.312081] (test1) StdoutLine: {'line': b'copying test1/test_node.py -> /home/lydia-chheng/ros2_ws/src/build/test1/build/lib/test1\n'}
+[2.312371] (test1) StdoutLine: {'line': b'running install\n'}
+[2.312576] (test1) StdoutLine: {'line': b'running install_lib\n'}
+[2.314189] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1\n'}
+[2.314607] (test1) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/test1/build/lib/test1/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1\n'}
+[2.314829] (test1) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/test1/build/lib/test1/test_node.py -> /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1\n'}
+[2.315784] (test1) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1/__init__.py to __init__.cpython-310.pyc\n'}
+[2.316264] (test1) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1/test_node.py to test_node.cpython-310.pyc\n'}
+[2.316968] (test1) StdoutLine: {'line': b'running install_data\n'}
+[2.317470] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/share\n'}
+[2.317824] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/share/ament_index\n'}
+[2.318862] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/share/ament_index/resource_index\n'}
+[2.319077] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/share/ament_index/resource_index/packages\n'}
+[2.319279] (test1) StdoutLine: {'line': b'copying resource/test1 -> /home/lydia-chheng/ros2_ws/src/install/test1/share/ament_index/resource_index/packages\n'}
+[2.319480] (test1) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test1/share/test1\n'}
+[2.319700] (test1) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/test1/share/test1\n'}
+[2.319906] (test1) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.321729] (-) TimerEvent: {}
+[2.322617] (test1) StdoutLine: {'line': b'Copying ../build/test1/test1.egg-info to /home/lydia-chheng/ros2_ws/src/install/test1/lib/python3.10/site-packages/test1-0.0.0-py3.10.egg-info\n'}
+[2.324781] (test1) StdoutLine: {'line': b'running install_scripts\n'}
+[2.376811] (test1) StdoutLine: {'line': b'Installing test_node script to /home/lydia-chheng/ros2_ws/src/install/test1/lib/test1\n'}
+[2.377611] (test1) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/test1/install.log'\n"}
+[2.422647] (-) TimerEvent: {}
+[2.464890] (test1) CommandEnded: {'returncode': 0}
+[2.491305] (test1) JobEnded: {'identifier': 'test1', 'rc': 0}
+[2.495152] (test2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/test2', 'build', '--build-base', '/home/lydia-chheng/ros2_ws/src/build/test2/build', 'install', '--record', '/home/lydia-chheng/ros2_ws/src/build/test2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/ros2_ws/src/test2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2730', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1490,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1490', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d425c1c_f217_4fe0_a10c_3406394b0c61', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CICDY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/src/build/test2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/src/build/test2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.518158] (can_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/can_test', 'build', '--build-base', '/home/lydia-chheng/ros2_ws/src/build/can_test/build', 'install', '--record', '/home/lydia-chheng/ros2_ws/src/build/can_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/ros2_ws/src/can_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2730', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1490,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1490', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d425c1c_f217_4fe0_a10c_3406394b0c61', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CICDY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/ros2_ws/src/build/can_test', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/ros2_ws/src/build/can_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.522723] (-) TimerEvent: {}
+[2.623640] (-) TimerEvent: {}
+[2.724058] (-) TimerEvent: {}
+[2.824480] (-) TimerEvent: {}
+[2.924926] (-) TimerEvent: {}
+[2.955151] (test2) StdoutLine: {'line': b'running egg_info\n'}
+[2.956042] (test2) StdoutLine: {'line': b'creating ../build/test2/test2.egg-info\n'}
+[2.956470] (test2) StdoutLine: {'line': b'writing ../build/test2/test2.egg-info/PKG-INFO\n'}
+[2.956940] (test2) StdoutLine: {'line': b'writing dependency_links to ../build/test2/test2.egg-info/dependency_links.txt\n'}
+[2.958052] (test2) StdoutLine: {'line': b'writing entry points to ../build/test2/test2.egg-info/entry_points.txt\n'}
+[2.958509] (test2) StdoutLine: {'line': b'writing requirements to ../build/test2/test2.egg-info/requires.txt\n'}
+[2.958751] (test2) StdoutLine: {'line': b'writing top-level names to ../build/test2/test2.egg-info/top_level.txt\n'}
+[2.958959] (test2) StdoutLine: {'line': b"writing manifest file '../build/test2/test2.egg-info/SOURCES.txt'\n"}
+[2.960907] (test2) StdoutLine: {'line': b"reading manifest file '../build/test2/test2.egg-info/SOURCES.txt'\n"}
+[2.961253] (test2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.962531] (test2) StdoutLine: {'line': b"writing manifest file '../build/test2/test2.egg-info/SOURCES.txt'\n"}
+[2.962769] (test2) StdoutLine: {'line': b'running build\n'}
+[2.963221] (test2) StdoutLine: {'line': b'running build_py\n'}
+[2.963532] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test2/build\n'}
+[2.963762] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test2/build/lib\n'}
+[2.963966] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2\n'}
+[2.964161] (test2) StdoutLine: {'line': b'copying test2/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2\n'}
+[2.964372] (test2) StdoutLine: {'line': b'copying test2/my_test.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2\n'}
+[2.964651] (test2) StdoutLine: {'line': b'copying test2/turtle_publisher.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2\n'}
+[2.964857] (test2) StdoutLine: {'line': b'running install\n'}
+[2.965115] (test2) StdoutLine: {'line': b'running install_lib\n'}
+[2.967734] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2\n'}
+[2.968002] (test2) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2\n'}
+[2.968210] (test2) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/my_test.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2\n'}
+[2.968404] (test2) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/turtle_publisher.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2\n'}
+[2.968736] (test2) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/__init__.py to __init__.cpython-310.pyc\n'}
+[2.969201] (test2) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/my_test.py to my_test.cpython-310.pyc\n'}
+[2.970047] (test2) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/turtle_publisher.py to turtle_publisher.cpython-310.pyc\n'}
+[2.971584] (test2) StdoutLine: {'line': b'running install_data\n'}
+[2.971814] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index\n'}
+[2.972006] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index\n'}
+[2.972201] (test2) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index/packages\n'}
+[2.972399] (test2) StdoutLine: {'line': b'copying resource/test2 -> /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index/packages\n'}
+[2.972601] (test2) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/test2/share/test2\n'}
+[2.972813] (test2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.975731] (test2) StdoutLine: {'line': b'Copying ../build/test2/test2.egg-info to /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2-0.0.0-py3.10.egg-info\n'}
+[2.977204] (test2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.981070] (can_test) StdoutLine: {'line': b'running egg_info\n'}
+[2.982781] (can_test) StdoutLine: {'line': b'creating ../build/can_test/can_test.egg-info\n'}
+[2.983205] (can_test) StdoutLine: {'line': b'writing ../build/can_test/can_test.egg-info/PKG-INFO\n'}
+[2.983418] (can_test) StdoutLine: {'line': b'writing dependency_links to ../build/can_test/can_test.egg-info/dependency_links.txt\n'}
+[2.983632] (can_test) StdoutLine: {'line': b'writing entry points to ../build/can_test/can_test.egg-info/entry_points.txt\n'}
+[2.983897] (can_test) StdoutLine: {'line': b'writing requirements to ../build/can_test/can_test.egg-info/requires.txt\n'}
+[2.984114] (can_test) StdoutLine: {'line': b'writing top-level names to ../build/can_test/can_test.egg-info/top_level.txt\n'}
+[2.984363] (can_test) StdoutLine: {'line': b"writing manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'\n"}
+[2.986856] (can_test) StdoutLine: {'line': b"reading manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'\n"}
+[2.987220] (can_test) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.988149] (can_test) StdoutLine: {'line': b"writing manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'\n"}
+[2.988683] (can_test) StdoutLine: {'line': b'running build\n'}
+[2.988928] (can_test) StdoutLine: {'line': b'running build_py\n'}
+[2.989149] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/can_test/build\n'}
+[2.989451] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib\n'}
+[2.989688] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test\n'}
+[2.989927] (can_test) StdoutLine: {'line': b'copying can_test/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test\n'}
+[2.990122] (can_test) StdoutLine: {'line': b'running install\n'}
+[2.990366] (can_test) StdoutLine: {'line': b'running install_lib\n'}
+[2.991710] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test\n'}
+[2.992006] (can_test) StdoutLine: {'line': b'copying /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test\n'}
+[2.992834] (can_test) StdoutLine: {'line': b'byte-compiling /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test/__init__.py to __init__.cpython-310.pyc\n'}
+[2.993204] (can_test) StdoutLine: {'line': b'running install_data\n'}
+[2.993466] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index\n'}
+[2.993764] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index\n'}
+[2.994032] (can_test) StdoutLine: {'line': b'creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index/packages\n'}
+[2.994237] (can_test) StdoutLine: {'line': b'copying resource/can_test -> /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index/packages\n'}
+[2.994479] (can_test) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/can_test/share/can_test\n'}
+[2.994746] (can_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.997274] (can_test) StdoutLine: {'line': b'Copying ../build/can_test/can_test.egg-info to /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test-0.0.0-py3.10.egg-info\n'}
+[2.998747] (can_test) StdoutLine: {'line': b'running install_scripts\n'}
+[3.011750] (test2) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/test2/install.log'\n"}
+[3.025084] (-) TimerEvent: {}
+[3.032692] (can_test) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/can_test/install.log'\n"}
+[3.060715] (test2) CommandEnded: {'returncode': 0}
+[3.074303] (test2) JobEnded: {'identifier': 'test2', 'rc': 0}
+[3.084271] (can_test) CommandEnded: {'returncode': 0}
+[3.103385] (can_test) JobEnded: {'identifier': 'can_test', 'rc': 0}
+[3.104990] (-) EventReactorShutdown: {}

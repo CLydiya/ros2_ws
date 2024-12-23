@@ -1,0 +1,40 @@
+[2.473s] Invoking command in '/home/lydia-chheng/ros2_ws/src/test2': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/test2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test2 build --build-base /home/lydia-chheng/ros2_ws/src/build/test2/build install --record /home/lydia-chheng/ros2_ws/src/build/test2/install.log --single-version-externally-managed install_data
+[2.931s] running egg_info
+[2.932s] creating ../build/test2/test2.egg-info
+[2.932s] writing ../build/test2/test2.egg-info/PKG-INFO
+[2.933s] writing dependency_links to ../build/test2/test2.egg-info/dependency_links.txt
+[2.934s] writing entry points to ../build/test2/test2.egg-info/entry_points.txt
+[2.934s] writing requirements to ../build/test2/test2.egg-info/requires.txt
+[2.934s] writing top-level names to ../build/test2/test2.egg-info/top_level.txt
+[2.935s] writing manifest file '../build/test2/test2.egg-info/SOURCES.txt'
+[2.937s] reading manifest file '../build/test2/test2.egg-info/SOURCES.txt'
+[2.937s] adding license file 'LICENSE'
+[2.938s] writing manifest file '../build/test2/test2.egg-info/SOURCES.txt'
+[2.939s] running build
+[2.939s] running build_py
+[2.939s] creating /home/lydia-chheng/ros2_ws/src/build/test2/build
+[2.939s] creating /home/lydia-chheng/ros2_ws/src/build/test2/build/lib
+[2.940s] creating /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2
+[2.940s] copying test2/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2
+[2.940s] copying test2/my_test.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2
+[2.940s] copying test2/turtle_publisher.py -> /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2
+[2.940s] running install
+[2.941s] running install_lib
+[2.943s] creating /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2
+[2.944s] copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2
+[2.944s] copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/my_test.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2
+[2.944s] copying /home/lydia-chheng/ros2_ws/src/build/test2/build/lib/test2/turtle_publisher.py -> /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2
+[2.944s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/__init__.py to __init__.cpython-310.pyc
+[2.945s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/my_test.py to my_test.cpython-310.pyc
+[2.946s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2/turtle_publisher.py to turtle_publisher.cpython-310.pyc
+[2.947s] running install_data
+[2.947s] creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index
+[2.948s] creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index
+[2.948s] creating /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index/packages
+[2.948s] copying resource/test2 -> /home/lydia-chheng/ros2_ws/src/install/test2/share/ament_index/resource_index/packages
+[2.948s] copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/test2/share/test2
+[2.948s] running install_egg_info
+[2.951s] Copying ../build/test2/test2.egg-info to /home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages/test2-0.0.0-py3.10.egg-info
+[2.953s] running install_scripts
+[2.987s] writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/test2/install.log'
+[3.037s] Invoked command in '/home/lydia-chheng/ros2_ws/src/test2' returned '0': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/test2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/test2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test2 build --build-base /home/lydia-chheng/ros2_ws/src/build/test2/build install --record /home/lydia-chheng/ros2_ws/src/build/test2/install.log --single-version-externally-managed install_data

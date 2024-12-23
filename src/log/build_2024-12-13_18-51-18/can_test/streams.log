@@ -1,0 +1,34 @@
+[2.519s] Invoking command in '/home/lydia-chheng/ros2_ws/src/can_test': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/can_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/can_test build --build-base /home/lydia-chheng/ros2_ws/src/build/can_test/build install --record /home/lydia-chheng/ros2_ws/src/build/can_test/install.log --single-version-externally-managed install_data
+[2.981s] running egg_info
+[2.982s] creating ../build/can_test/can_test.egg-info
+[2.983s] writing ../build/can_test/can_test.egg-info/PKG-INFO
+[2.983s] writing dependency_links to ../build/can_test/can_test.egg-info/dependency_links.txt
+[2.983s] writing entry points to ../build/can_test/can_test.egg-info/entry_points.txt
+[2.983s] writing requirements to ../build/can_test/can_test.egg-info/requires.txt
+[2.984s] writing top-level names to ../build/can_test/can_test.egg-info/top_level.txt
+[2.984s] writing manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'
+[2.986s] reading manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'
+[2.987s] adding license file 'LICENSE'
+[2.988s] writing manifest file '../build/can_test/can_test.egg-info/SOURCES.txt'
+[2.988s] running build
+[2.988s] running build_py
+[2.989s] creating /home/lydia-chheng/ros2_ws/src/build/can_test/build
+[2.989s] creating /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib
+[2.989s] creating /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test
+[2.989s] copying can_test/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test
+[2.990s] running install
+[2.990s] running install_lib
+[2.991s] creating /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test
+[2.992s] copying /home/lydia-chheng/ros2_ws/src/build/can_test/build/lib/can_test/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test
+[2.992s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test/__init__.py to __init__.cpython-310.pyc
+[2.993s] running install_data
+[2.993s] creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index
+[2.993s] creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index
+[2.994s] creating /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index/packages
+[2.994s] copying resource/can_test -> /home/lydia-chheng/ros2_ws/src/install/can_test/share/ament_index/resource_index/packages
+[2.994s] copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/can_test/share/can_test
+[2.994s] running install_egg_info
+[2.997s] Copying ../build/can_test/can_test.egg-info to /home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages/can_test-0.0.0-py3.10.egg-info
+[2.998s] running install_scripts
+[3.032s] writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/can_test/install.log'
+[3.084s] Invoked command in '/home/lydia-chheng/ros2_ws/src/can_test' returned '0': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/can_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/can_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/can_test build --build-base /home/lydia-chheng/ros2_ws/src/build/can_test/build install --record /home/lydia-chheng/ros2_ws/src/build/can_test/install.log --single-version-externally-managed install_data

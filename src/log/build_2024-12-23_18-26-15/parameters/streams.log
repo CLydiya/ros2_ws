@@ -1,0 +1,36 @@
+[1.280s] Invoking command in '/home/lydia-chheng/ros2_ws/src/parameters': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/parameters build --build-base /home/lydia-chheng/ros2_ws/src/build/parameters/build install --record /home/lydia-chheng/ros2_ws/src/build/parameters/install.log --single-version-externally-managed install_data
+[1.508s] /home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.508s]   warnings.warn(msg)
+[1.693s] running egg_info
+[1.721s] creating ../build/parameters/parameters.egg-info
+[1.721s] writing ../build/parameters/parameters.egg-info/PKG-INFO
+[1.722s] writing dependency_links to ../build/parameters/parameters.egg-info/dependency_links.txt
+[1.722s] writing entry points to ../build/parameters/parameters.egg-info/entry_points.txt
+[1.723s] writing requirements to ../build/parameters/parameters.egg-info/requires.txt
+[1.723s] writing top-level names to ../build/parameters/parameters.egg-info/top_level.txt
+[1.723s] writing manifest file '../build/parameters/parameters.egg-info/SOURCES.txt'
+[1.787s] reading manifest file '../build/parameters/parameters.egg-info/SOURCES.txt'
+[1.788s] adding license file 'LICENSE'
+[1.790s] writing manifest file '../build/parameters/parameters.egg-info/SOURCES.txt'
+[1.790s] running build
+[1.790s] running build_py
+[1.790s] creating /home/lydia-chheng/ros2_ws/src/build/parameters/build/lib/parameters
+[1.791s] copying parameters/__init__.py -> /home/lydia-chheng/ros2_ws/src/build/parameters/build/lib/parameters
+[1.791s] copying parameters/parameters.py -> /home/lydia-chheng/ros2_ws/src/build/parameters/build/lib/parameters
+[1.791s] running install
+[1.798s] running install_lib
+[1.824s] creating /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters
+[1.824s] copying /home/lydia-chheng/ros2_ws/src/build/parameters/build/lib/parameters/__init__.py -> /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters
+[1.824s] copying /home/lydia-chheng/ros2_ws/src/build/parameters/build/lib/parameters/parameters.py -> /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters
+[1.825s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters/__init__.py to __init__.cpython-310.pyc
+[1.825s] byte-compiling /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters/parameters.py to parameters.cpython-310.pyc
+[1.826s] running install_data
+[1.826s] creating /home/lydia-chheng/ros2_ws/src/install/parameters/share/ament_index/resource_index/packages
+[1.827s] copying resource/parameters -> /home/lydia-chheng/ros2_ws/src/install/parameters/share/ament_index/resource_index/packages
+[1.827s] copying package.xml -> /home/lydia-chheng/ros2_ws/src/install/parameters/share/parameters
+[1.828s] running install_egg_info
+[1.865s] Copying ../build/parameters/parameters.egg-info to /home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages/parameters-0.0.0-py3.10.egg-info
+[1.867s] running install_scripts
+[2.082s] Installing parameters script to /home/lydia-chheng/ros2_ws/src/install/parameters/lib/parameters
+[2.083s] writing list of installed files to '/home/lydia-chheng/ros2_ws/src/build/parameters/install.log'
+[2.127s] Invoked command in '/home/lydia-chheng/ros2_ws/src/parameters' returned '0': PYTHONPATH=/home/lydia-chheng/ros2_ws/src/build/parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/ros2_ws/src/install/parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/parameters build --build-base /home/lydia-chheng/ros2_ws/src/build/parameters/build install --record /home/lydia-chheng/ros2_ws/src/build/parameters/install.log --single-version-externally-managed install_data
