@@ -92,7 +92,7 @@ Your locales must support UTF-8
     sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
 
-*Add the repository to your sources list. 
+* Add the repository to your sources list. 
 
 ``` bash
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
@@ -124,3 +124,97 @@ Source the setup script
 ``` bash
     source /opt/ros/humble/setup.bash
 ```
+## VS Code Installation Guide 
+Ubuntu isn't an IDE (Integrated Development Environment). We need VS Code to write, compile, and run code, so for now, after installing Ubuntu and ROS2 successfully, I will cover VS Code Installation for Ubuntu (deb package). 
+
+* Installing the deb package
+``` bash
+    sudo apt install ./<file>.deb 
+```
+
+* Installing deb package will prompt to install apt repository and signing for automatically update.
+``` bash
+    echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+```
+
+* update and install the apt repository key
+``` bash
+    sudo install apt-transport-https
+    sudo apt update
+    sudo apt install code
+```
+
+To open the VS Code, run this command:
+``` bash
+    ./code
+```
+
+## SSH (optional)
+When it comes to coding and controlling robots, we may need remote development extensions, so I will be shwoing how to use SSH.
+* Open VS Code
+* Install the extension "Remote SSH" in VS Code
+* Open your terminal, search for the ip address of the port you need to connect to
+Run this command:
+``` bash
+    ip a
+```
+
+The IP address will be shown next to "inet" in the terminal. Another way to do it, if you know the number, for exmple 192.xxx.xx.xx, then you can use this command:
+``` bash
+    nmap -sn 192.xxx.xx.0/24
+
+    #before you can use nmap, you need to install it
+    #to install it, run these command
+    sudo apt install nmap 
+```
+* Now, open the command pallete on VS Code, then type "Remote-SSH: connect to host"
+* Type in the IP address and hostname, "username(host)@192.xxx.xx.xx". If this is the first time, you will be asked to open config file, so accept the prompt. You will be asked to input password, type in the password, then click Enter.
+* Once, connected, you can open the folder and run the code in the folder.
+
+## ROS2 Concept  
+
+### Configuring Environment
+When developing ROS2, you will be using combination of workspaces. The term workspace refers to the location in your system that you use top develop ROS2. But with before you develop or runnign any code, you need to configure the environement first, otherwise, you won't be able to use ROS2. Now, we will learn to setup the environment. 
+
+#### Source the setup files 
+Note that each time you open new terminal, you need to source the setup files with this command: 
+``` bash
+    source /opt/ros/humble/setup.bash
+```
+
+#### Add sourcing to your startup shell 
+```  bash
+    echo "source /opt/ros/humble/seyup.bash" >> ~/.bashrc
+```
+
+#### Check environment variables 
+``` bash
+    printenv | grep -i ROS
+```
+This command will return your ROS distro (distribution) and version; it should be something like this: 
+``` bash
+    ROS_VERSION=2
+    ROS_PYTHON_VERSION=3
+    ROS_DISTRO=humble
+```
+
+If it is not set correctly, you need to the installarion again. 
+
+* ROS_DOMAIN_ID: when you have determined a unique integer of your group of ROS2 nodes, you can set the environment varible.
+``` bash
+    export ROS_DOMAIN_ID=<your domain id>
+    echo "export ROS_DOMAIN_ID=<your domain id>" >> ~/.bashrc #add it to your startup script
+```
+
+* ROS_LOCALHOST_ONLY: since ROS2 communication is not limited to local host, it may disrupt your communicaation in your robots, to ensure efficient communication, you can setup the "ROS_LOCALHOST_ONLY" environment with this command:
+``` bash
+    export ROS_LOCALHOST_ONLY=1
+    echo "export ROS_LOCALHOST_ONLY=1" >> ~/.bashrc
+```
+
+
+
+
+## Creating ROS2 workspace 
+
+    
