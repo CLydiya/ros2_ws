@@ -419,7 +419,7 @@ This code import the "rclpy" library and "Node" from the library, so ROS2 can ac
 This import "String" from "std_msgs.msg", allowing node to use string-message to structure the data 
 
 ``` python
-    
+``` 
 
 
     
