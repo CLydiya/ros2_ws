@@ -349,7 +349,7 @@ We will write two nodes, one is the publisher, and another one is the subscriber
     source /opt/ros/humble/setup.bash
 ```
 
-*Creating the package: 
+* Creating the package: 
 Navigate to your "src" directory in your workspace
 ``` bash
     cd ~/ros2_ws/src
@@ -371,7 +371,7 @@ Create a package
     touch publisher.py
 ```
 
-*Code the node: now open it on vs code, then add the code. 
+* Code the node: now open it on vs code, then add the code. 
 ``` bash
     ./code
 ```
@@ -380,7 +380,7 @@ This is the source code:
 ``` python
     import rclpy
     from rclpy import Node
-    from std_msgs.msg import Node
+    from std_msgs.msg import String
 
     class Publisher(Node):
         def __init__(self):
@@ -405,7 +405,7 @@ This is the source code:
         main()
 ```
 
-*Code explanation: 
+* Code explanation: 
 
 ``` python
     import rclpy
