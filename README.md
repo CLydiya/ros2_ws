@@ -1,5 +1,5 @@
 # ros2_ws
-ROS2 (Robotic Operating System 2) is a set of software development tools and libraries for building robot applications. 
+ROS2 (Robotic Operating System 2) is a set of software development tools and libraries for building robot applications.  
 
 ## Prerequisite 
 Before you go on to installing ROS2, you should be operating on linux; windows is fine, but there are a lot of issues, so my suggestion is operating it on linux like Ubuntu. For this, I will be using ROS2 humble and Ubuntu Linux - Jammy (22.04) dual boot on my laptop.
