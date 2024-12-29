@@ -419,8 +419,40 @@ This code import the "rclpy" library and "Node" from the library, so ROS2 can ac
 This import "String" from "std_msgs.msg", allowing node to use string-message to structure the data 
 
 ``` python
-``` 
+    class Publisher(Node):
+```
+We create a class name "Publisher" which inherits from "Node"
 
+``` python
+    def __init__(self):
+        super().__init__('Publisher')
+        self.Publisher = self.create_publisher(String, 'Publisher', 10)
+        self.timer = self.create_timer(1, self.timer_callback)
+```
+This function initializes and declares the publisher node and a timer. 
+
+``` python
+    super().__init__('Publisher')
+```
+This line in=s the constructor which calls the Node class's constructor and gives your node the name "Publisher.
+
+``` python
+    self.Publisher = self.create_publisher(String, 'Publisher', 10)
+```
+Next, we create the variable "Publisher" which declares that the node publishes the message and sets its data type to string. The 'Publisher' is the topic name, and the number "10" is the queue size which we need to set the limit of the amount of the queued message in case the subscriber is not receiving them fast enough. 
+
+``` python
+    self.timer = self.create_timer(1, self.timer_callback)
+```
+A timer is created to make the publisher execute every 1 second. 
+
+``` python
+    def timer_callback(self):
+        msg = String()
+        msg.data = "Hello, world from Publisher"
+        self.Publisher_publish(msg)
+        self.get_logger().info('Publishing: "%s"', %msg.data)
+```
 
     
 
@@ -435,3 +467,4 @@ This import "String" from "std_msgs.msg", allowing node to use string-message to
 * ROS2 cheat sheet (basic commands): https://www.theconstruct.ai/wp-content/uploads/2021/10/ROS2-Command-Cheat-Sheets-updated.pdf
 * VS Code installation: https://code.visualstudio.com/docs/setup/linux
 * Building ROS2 workspace: https://automaticaddison.com/how-to-create-a-ros-2-workspace-iron/
+* rclpy library (pyhton): https://docs.ros.org/en/iron/p/rclpy/
