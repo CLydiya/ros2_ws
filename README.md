@@ -332,7 +332,94 @@ After you writing code and make necessary changes in the package, you can build 
 
 ## Writing publisher and subscriber node 
 
+### Basic concepts 
 
+#### What is node? 
+Node is a process that performs a unique task. Each node is responsible for different tasks like sending data from sensors, controlling the wheel of the robots, etc. 
+
+#### What is topic? 
+The purpose of nodes is to exchange communication. But when we have a lot of nodes, it can be hard to keep track of everything. Topic is the datastream for exchanging communication between nodes. It acts as bus for nodes to be connected together. Topics consist of publisher, the node that send the message, and the subscription, the node that receives the message from the publisher. 
+
+### How to write publisher and subscriber node 
+We will write two nodes, one is the publisher, and another one is the subscriber. 
+
+#### Create a package 
+* Source the environment: Open a new terminal, and source your ROS2 environment
+``` bash
+    source /opt/ros/humble/setup.bash
+```
+
+*Creating the package: 
+Navigate to your "src" directory in your workspace
+``` bash
+    cd ~/ros2_ws/src
+```
+
+Create a package 
+``` bash
+    ros2 pkg create pub_sub --build-type ament_python ---dependencies rclpy ---license Apache-2.0
+```
+
+#### Write the publisher node (code)
+* Navigate into "ros2_ws/src/pub_sub/pub_sub", this is where you will store your source code 
+``` bash
+    cd ~/ros2_ws/src/pub_sub/pub_sub
+```
+
+* Create a python file to code the node
+``` bash
+    touch publisher.py
+```
+
+*Code the node: now open it on vs code, then add the code. 
+``` bash
+    ./code
+```
+
+This is the source code: 
+``` python
+    import rclpy
+    from rclpy import Node
+    from std_msgs.msg import Node
+
+    class Publisher(Node):
+        def __init__(self):
+            super().__init__('Publisher')
+            self.Publisher = self.create_publisher(String, 'Publisher', 10)
+            self.timer = self.create_timer(1, self.timer_callback)
+
+        def timer_callback(self):
+            msg = String()
+            msg.data = "Hello, world from Publisher"
+            self.Publisher.publish(msg)
+            self.get_logger().info('Publishing: "%s"', %msg.data)
+
+    def main(args = None):
+        rclpy.init(args = args)
+        publisher = Publisher()
+        rclpy.spin(publisher)
+        publisher.destroy_node()
+        rclpy.shutdown()
+
+    if __name__ = '__main__':
+        main()
+```
+
+*Code explanation: 
+
+``` python
+    import rclpy
+    from rclpy import Node
+```
+This code import the "rclpy" library and "Node" from the library, so ROS2 can access and use it
+
+``` python
+    from std_msgs.msg import String
+```
+This import "String" from "std_msgs.msg", allowing node to use string-message to structure the data 
+
+``` python
+    
 
 
     
